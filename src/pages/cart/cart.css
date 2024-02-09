@@ -1,0 +1,81 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+.cart {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 3rem;
+  }
+  *{
+    background: black;
+    color: rgb(255, 255, 255);
+  }
+  .carttitle{
+    font-family: 'Dancing Script', cursive;
+
+  }
+  .cartItem {
+    width: 700px;
+    height: 250px;
+    display: flex;
+  
+    align-items: center;
+    box-shadow: 0px 3px 15px rgb(255, 255, 255);
+    border-radius: 25px;
+    margin: 30px;
+  }
+
+  .cartproimg{
+    transition: transform 0.3s ease-in-out;
+    height: 200px;
+    width: 100px;
+    padding-left: 2rem;
+    padding-right: 1rem;
+  }
+
+  .cartproimg:hover{
+    background: transparent;
+    /* padding-left: 3rem; */
+    transform: scale(1.1);
+  }
+  
+  .cartItem img {
+    width: 200px;
+  }
+  
+  .cartItem .description {
+    width: 100%;
+    font-size: 30px;
+  }
+  
+  .countHandler input {
+    width: 40px;
+    text-align: center;
+    font-weight: bolder;
+  }
+  
+  .checkout button {
+    width: 150px;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 8px;
+    margin: 10px;
+    cursor: pointer;
+  }
+
+  .checkout button:hover {
+
+    background-color: rgba(128, 121, 121, 0.578);
+    color: white;
+    cursor: pointer;
+  }
+  .subtotal{
+    background-color: white;
+    color: black;
+    width: 9rem;
+  }

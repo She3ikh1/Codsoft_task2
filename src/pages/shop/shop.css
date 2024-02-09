@@ -1,0 +1,98 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap'); */
+*{
+
+  
+  background: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+
+
+
+.shopTitle {
+    font-family: 'Dancing Script', cursive;
+    margin-top:5rem;
+    text-align: center;
+    font-size: 40px;
+}
+
+  .products {
+    width: 100%;
+    /* margin-bottom: 10rem; */
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+  }
+  
+  .product {
+    
+    border-radius: 15px;
+    width: 300px;
+    height: 350px;
+    margin: 100px;
+    margin-bottom: 13rem;
+    margin-top: 13rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .pricname{
+    margin-top: 1rem;
+  }
+  /* img{
+margin-top: 100px;
+  } */
+  .product img {
+   
+    width: 400px;
+    /* margin-top: 20rem;
+    margin-bottom: 20rem; */
+  }
+  
+  .product  {
+    
+    color: white;
+    text-align: center;
+  }
+  .description{
+    font-family: 'Roboto Mono', monospace;    padding:10px;
+  }
+  .product:hover {
+    cursor: pointer;
+  }
+  .proimg {
+    margin-top: 1rem;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out, filter 0.3s ease-in-out;
+  }
+  
+  .proimg:hover {
+    transform: scale(1.1) rotateY(10deg) rotateX(10deg); /* Slight zoom and 3D tilt effect */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Add a shadow */
+    filter: brightness(0.8) contrast(1.2); /* Apply a color overlay */
+  }
+  
+  
+  
+  .addToCartBttn {
+    font-size: 1rem;
+    color: black;
+    background-color: white;
+    border: 2px solid rgb(0, 0, 0);
+    min-width: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 15px;
+  }
+  
+  .addToCartBttn:hover {
+    font-size: 1.25rem;
+    background-color: rgba(128, 121, 121, 0.578);
+    color: white;
+    cursor: pointer;
+  }
